@@ -1,37 +1,29 @@
-# TypeScript Starters
+[![CircleCI](https://img.shields.io/circleci/build/gh/hanggrian/pve-planner)](https://app.circleci.com/pipelines/gh/hanggrian/pve-planner/)
+[![Codecov](https://img.shields.io/codecov/c/gh/hanggrian/pve-planner)](https://app.codecov.io/gh/hanggrian/pve-planner/)
 
-![](https://github.com/hanggrian/typescript-starters/raw/assets/logo.png)
+# PVE Planner
 
-Common Node project templates with emphasis on **TypeScript,** separated by
-target platform and kind of distribution.
+Calculate resource allocation for Proxmox Virtual Environment.
 
-| | Testing | Publishing | Website
---- | :---: | :---: | :---:
-react-app | [Vitest] | &cross; | [Just the Docs]
-react-library | [Vitest] | [Package Manager] | [TypeDoc], [Just the Docs]
+## Building
 
-## Frameworks
+Setup GitHub API token in `.netrc`:
 
-- Vitest testing framework for [Vite](https://vite.dev/) build tool.
-- [ESLint](https://eslint.org/) code linter.
-- Coverage command included in Vitest.
+```
+machine api.github.com
+  login GITHUB_USERNAME
+  password GITHUB_TOKEN
+```
 
-## Project layout
+This allows the Python script to fetch the latest resource allocation from
+[the community scripts](https://github.com/community-scripts/ProxmoxVE).
 
-- Root directory:
-  - GitHub [README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes/),
-    [LICENSE](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository/),
-    and [gitignore](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files/)
-    file.
-  - [EditorConfig](https://editorconfig.org/) enforces IDE settings.
-  - [CircleCI](https://circleci.com/) to run test every commit, also triggers
-    [Codecov](https://codecov.io/) coverage.
-- Website module:
-  - [Jekyll](https://jekyllrb.com/) for generating webpages displaying README
-    and other content.
-  - The webpages are manually deployed with `jekyll build`.
+```sh
+python3 generate_images.py
+```
 
-[Vitest]: https://vitest.dev/
-[Package Manager]: https://www.npmjs.com/
-[TypeDoc]: https://typedoc.org/
-[Just the Docs]: https://just-the-docs.com/
+Then, build the React app:
+
+```sh
+npm run build && npm run preview
+```

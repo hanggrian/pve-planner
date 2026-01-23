@@ -1,0 +1,3450 @@
+[
+  {
+    "id": "archlinux",
+    "name": "Arch Linux",
+    "type": "VM",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "debian",
+    "name": "Debian 13",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "debian",
+    "name": "Debian 12",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "homeassistant",
+    "name": "Homeassistant OS",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 32768
+  },
+  {
+    "id": "mikrotik",
+    "name": "Mikrotik RouterOS CHR",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 512,
+    "disk": 1024
+  },
+  {
+    "id": "nextcloud",
+    "name": "Nextcloud",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "openwrt",
+    "name": "OpenWrt",
+    "type": "VM",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "opnsense",
+    "name": "OPNsense",
+    "type": "VM",
+    "cpu": 4,
+    "ram": 8192,
+    "disk": 512
+  },
+  {
+    "id": "owncloud",
+    "name": "Owncloud",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "homeassistant",
+    "name": "Pimox Homeassistant OS",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 32768
+  },
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu 22.04",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu 24.04",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 7168
+  },
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu 25.04",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 7168
+  },
+  {
+    "id": "umbrel",
+    "name": "Umbrel OS",
+    "type": "VM",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 32768
+  },
+  {
+    "id": "2fauth",
+    "name": "2FAuth",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "actualbudget",
+    "name": "Actual Budget",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "adguard",
+    "name": "Adguard",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "adventurelog",
+    "name": "AdventureLog",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 7168
+  },
+  {
+    "id": "agentdvr",
+    "name": "AgentDVR",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-AdGuard",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-bitmagnet",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 3072
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Caddy",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 3072
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Docker",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 2048
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Forgejo",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Garage",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 5120
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-gatus",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 3072
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Gitea",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Grafana",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-IT-Tools",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Komodo",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 10240
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-MariaDB",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Nextcloud",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 2048
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Node-RED",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-PostgreSQL",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Prometheus",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-rclone",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Redis",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Redlib",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-RustDeskServer",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 3072
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Syncthing",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-TeamSpeak-Server",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 2048
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Tinyauth",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 2048
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Traefik",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Transmission",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Vaultwarden",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Wireguard",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine-Zigbee2MQTT",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 1024
+  },
+  {
+    "id": "alpinelinux",
+    "name": "Alpine",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 1024
+  },
+  {
+    "id": "apachecassandra",
+    "name": "Apache-Cassandra",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "apachecouchdb",
+    "name": "Apache-CouchDB",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "apacheguacamole",
+    "name": "Apache-Guacamole",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "apachetika",
+    "name": "Apache-Tika",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "apachetomcat",
+    "name": "Apache-Tomcat",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "aptcacherng",
+    "name": "Apt-Cacher-NG",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 10240
+  },
+  {
+    "id": "archivebox",
+    "name": "ArchiveBox",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "argus",
+    "name": "Argus",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 3072
+  },
+  {
+    "id": "aria2",
+    "name": "Aria2",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "asterisk",
+    "name": "Asterisk",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "audiobookshelf",
+    "name": "audiobookshelf",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "authelia",
+    "name": "Authelia",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "autobrr",
+    "name": "Autobrr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "autocaliweb",
+    "name": "Autocaliweb",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "babybuddy",
+    "name": "Baby Buddy",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "backrest",
+    "name": "Backrest",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 8192
+  },
+  {
+    "id": "baikal",
+    "name": "Baikal",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "barassistant",
+    "name": "Bar-Assistant",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "bazarr",
+    "name": "Bazarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "bentopdf",
+    "name": "BentoPDF",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 4096,
+    "disk": 4096
+  },
+  {
+    "id": "beszel",
+    "name": "Beszel",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 5120
+  },
+  {
+    "id": "bitmagnet",
+    "name": "Bitmagnet",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "blocky",
+    "name": "Blocky",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "booklore",
+    "name": "BookLore",
+    "type": "LXC",
+    "cpu": 3,
+    "ram": 3072,
+    "disk": 7168
+  },
+  {
+    "id": "bookstack",
+    "name": "Bookstack",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "bunkerweb",
+    "name": "BunkerWeb",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 8192,
+    "disk": 4096
+  },
+  {
+    "id": "bytestash",
+    "name": "ByteStash",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "caddy",
+    "name": "Caddy",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 6144
+  },
+  {
+    "id": "casaos",
+    "name": "CasaOS",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "changedetection",
+    "name": "Change Detection",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "channels",
+    "name": "Channels",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "checkmk",
+    "name": "checkmk",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "cleanuparr",
+    "name": "Cleanuparr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "cloudflareddns",
+    "name": "Cloudflare-DDNS",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 3072
+  },
+  {
+    "id": "cloudflared",
+    "name": "Cloudflared",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "cloudreve",
+    "name": "Cloudreve",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 10240
+  },
+  {
+    "id": "cockpit",
+    "name": "Cockpit",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 8192,
+    "disk": 25600
+  },
+  {
+    "id": "commafeed",
+    "name": "CommaFeed",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "configarr",
+    "name": "Configarr",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "convertx",
+    "name": "ConvertX",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 20480
+  },
+  {
+    "id": "coolify",
+    "name": "Coolify",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 30720
+  },
+  {
+    "id": "cosmos",
+    "name": "Cosmos",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "craftycontroller",
+    "name": "Crafty-Controller",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 16384
+  },
+  {
+    "id": "cronicle",
+    "name": "Cronicle",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "crossseed",
+    "name": "cross-seed",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 2048
+  },
+  {
+    "id": "cryptpad",
+    "name": "CryptPad",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "daemonsync",
+    "name": "Daemon Sync",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 8192
+  },
+  {
+    "id": "debian",
+    "name": "Debian",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "deconz",
+    "name": "deCONZ",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "deluge",
+    "name": "Deluge",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "discopanel",
+    "name": "DiscoPanel",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 15360
+  },
+  {
+    "id": "dispatcharr",
+    "name": "Dispatcharr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "dockge",
+    "name": "Dockge",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 18432
+  },
+  {
+    "id": "docmost",
+    "name": "Docmost",
+    "type": "LXC",
+    "cpu": 3,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "dokploy",
+    "name": "Dokploy",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "dolibarr",
+    "name": "Dolibarr",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "domainlocker",
+    "name": "Domain-Locker",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 10240,
+    "disk": 8192
+  },
+  {
+    "id": "domainmonitor",
+    "name": "Domain-Monitor",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "donetick",
+    "name": "Donetick",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "dotnetaspwebapi",
+    "name": "Dotnet ASP Web API",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "duplicati",
+    "name": "Duplicati",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 10240
+  },
+  {
+    "id": "elementsynapse",
+    "name": "Element Synapse",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "emby",
+    "name": "Emby",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "emqx",
+    "name": "EMQX",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "endurain",
+    "name": "Endurain",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 5120
+  },
+  {
+    "id": "ersatztv",
+    "name": "ErsatzTV",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "esphome",
+    "name": "ESPHome",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 10240
+  },
+  {
+    "id": "evcc",
+    "name": "evcc",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 3072,
+    "disk": 10240
+  },
+  {
+    "id": "fhem",
+    "name": "FHEM",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "fileflows",
+    "name": "FileFlows",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "firefly",
+    "name": "Firefly",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 2048
+  },
+  {
+    "id": "fladder",
+    "name": "Fladder",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "flaresolverr",
+    "name": "FlareSolverr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "flatnotes",
+    "name": "Flatnotes",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "flowiseai",
+    "name": "FlowiseAI",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "fluidcalendar",
+    "name": "fluid-calendar",
+    "type": "LXC",
+    "cpu": 3,
+    "ram": 4096,
+    "disk": 7168
+  },
+  {
+    "id": "forgejo",
+    "name": "Forgejo",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "freepbx",
+    "name": "FreePBX",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "freshrss",
+    "name": "FreshRSS",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "frigate",
+    "name": "Frigate",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 20480
+  },
+  {
+    "id": "fumadocs",
+    "name": "Fumadocs",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "garage",
+    "name": "Garage",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "gatus",
+    "name": "gatus",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "ghostfolio",
+    "name": "Ghostfolio",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "giteamirror",
+    "name": "gitea-mirror",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "gitea",
+    "name": "Gitea",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "glance",
+    "name": "Glance",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "globaleaks",
+    "name": "GlobaLeaks",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "glpi",
+    "name": "GLPI",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "go2rtc",
+    "name": "go2rtc",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "gokapi",
+    "name": "Gokapi",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "gotify",
+    "name": "Gotify",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "graylog",
+    "name": "Graylog",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 8192,
+    "disk": 30720
+  },
+  {
+    "id": "grist",
+    "name": "Grist",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 3072,
+    "disk": 6144
+  },
+  {
+    "id": "grocy",
+    "name": "grocy",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "guardian",
+    "name": "Guardian",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "gwnmanager",
+    "name": "GWN-Manager",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 6144,
+    "disk": 8192
+  },
+  {
+    "id": "headscale",
+    "name": "Headscale",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "healthchecks",
+    "name": "healthchecks",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "heimdalldashboard",
+    "name": "Heimdall-Dashboard",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "hevsocks5server",
+    "name": "hev-socks5-server",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "hivemq",
+    "name": "HiveMQ",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "homarr",
+    "name": "homarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "homeassistant",
+    "name": "Home Assistant",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 16384
+  },
+  {
+    "id": "homebox",
+    "name": "HomeBox",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "homebridge",
+    "name": "Homebridge",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "homepage",
+    "name": "Homepage",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 6144
+  },
+  {
+    "id": "homer",
+    "name": "Homer",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "hortusfox",
+    "name": "HortusFox",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "huntarr",
+    "name": "huntarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "hyperhdr",
+    "name": "HyperHDR",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "hyperion",
+    "name": "Hyperion",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "immich",
+    "name": "immich",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 20480
+  },
+  {
+    "id": "infisical",
+    "name": "Infisical",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "influxdb",
+    "name": "InfluxDB",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "inspircd",
+    "name": "InspIRCd",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "inventree",
+    "name": "InvenTree",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "investbrain",
+    "name": "Investbrain",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "invoiceninja",
+    "name": "InvoiceNinja",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "iobroker",
+    "name": "ioBroker",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "itsmng",
+    "name": "ITSM-NG",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "jackett",
+    "name": "Jackett",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "jeedom",
+    "name": "Jeedom",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 16384
+  },
+  {
+    "id": "jellyfin",
+    "name": "Jellyfin",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 16384
+  },
+  {
+    "id": "jellyseerr",
+    "name": "Jellyseerr",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "joplinserver",
+    "name": "Joplin-Server",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 6144,
+    "disk": 20480
+  },
+  {
+    "id": "jotty",
+    "name": "jotty",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 6144
+  },
+  {
+    "id": "jupyternotebook",
+    "name": "JupyterNotebook",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "kapowarr",
+    "name": "Kapowarr",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 2048
+  },
+  {
+    "id": "karakeep",
+    "name": "karakeep",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "kasm",
+    "name": "Kasm",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 8192,
+    "disk": 30720
+  },
+  {
+    "id": "kavita",
+    "name": "Kavita",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "keycloak",
+    "name": "Keycloak",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "kimai",
+    "name": "Kimai",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 7168
+  },
+  {
+    "id": "koel",
+    "name": "Koel",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "koillection",
+    "name": "Koillection",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "kometa",
+    "name": "Kometa",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "komga",
+    "name": "Komga",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "komodo",
+    "name": "Komodo",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "kubo",
+    "name": "Kubo",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 4096
+  },
+  {
+    "id": "kutt",
+    "name": "Kutt",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 2048
+  },
+  {
+    "id": "lazylibrarian",
+    "name": "LazyLibrarian",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "leantime",
+    "name": "Leantime",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 20480
+  },
+  {
+    "id": "librenms",
+    "name": "LibreNMS",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "librespeedrust",
+    "name": "Librespeed-Rust",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "libretranslate",
+    "name": "LibreTranslate",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 20480
+  },
+  {
+    "id": "lidarr",
+    "name": "Lidarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "limesurvey",
+    "name": "LimeSurvey",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "linkstack",
+    "name": "LinkStack",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "linkwarden",
+    "name": "Linkwarden",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 12288
+  },
+  {
+    "id": "listmonk",
+    "name": "listmonk",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "litellm",
+    "name": "LiteLLM",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "livebook",
+    "name": "Livebook",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "lldap",
+    "name": "lldap",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "lubelogger",
+    "name": "LubeLogger",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "lyrionmusicserver",
+    "name": "Lyrion Music Server",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 3072
+  },
+  {
+    "id": "mafl",
+    "name": "Mafl",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "magicmirror",
+    "name": "MagicMirror",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 3072
+  },
+  {
+    "id": "mailarchiver",
+    "name": "Mail-Archiver",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "managemydamnlife",
+    "name": "Manage My Damn Life",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "mariadb",
+    "name": "MariaDB",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "matterbridge",
+    "name": "Matterbridge",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "mattermost",
+    "name": "Mattermost",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "mealie",
+    "name": "Mealie",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 3072,
+    "disk": 10240
+  },
+  {
+    "id": "mediamanager",
+    "name": "MediaManager",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 3072,
+    "disk": 4096
+  },
+  {
+    "id": "mediamtx",
+    "name": "MediaMTX",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "medusa",
+    "name": "Medusa",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 6144
+  },
+  {
+    "id": "meilisearch",
+    "name": "Meilisearch",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 7168
+  },
+  {
+    "id": "memos",
+    "name": "Memos",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 3072
+  },
+  {
+    "id": "meshcentral",
+    "name": "MeshCentral",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "metabase",
+    "name": "Metabase",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "metube",
+    "name": "MeTube",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "minarca",
+    "name": "Minarca",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "miniflux",
+    "name": "Miniflux",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "minio",
+    "name": "MinIO",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "monica",
+    "name": "Monica",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "motioneye",
+    "name": "Motioneye",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "mqtt",
+    "name": "MQTT",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "myip",
+    "name": "MyIP",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "mylar3",
+    "name": "Mylar3",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "myspeed",
+    "name": "MySpeed",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "navidrome",
+    "name": "Navidrome",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "neo4j",
+    "name": "Neo4j",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "netbox",
+    "name": "NetBox",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "nextcloudpi",
+    "name": "NextCloudPi",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "nextpvr",
+    "name": "NextPVR",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "nginxproxymanager",
+    "name": "Nginx Proxy Manager",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "nocodb",
+    "name": "NocoDB",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "nodered",
+    "name": "Node-Red",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "nodebb",
+    "name": "NodeBB",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "notifiarr",
+    "name": "Notifiarr",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "npmplus",
+    "name": "NPMplus",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 3072
+  },
+  {
+    "id": "ntfy",
+    "name": "ntfy",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "nxwitness",
+    "name": "NxWitness",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "nzbget",
+    "name": "NZBGet",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "oauth2proxy",
+    "name": "oauth2-proxy",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 3072
+  },
+  {
+    "id": "octoprint",
+    "name": "OctoPrint",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "odoo",
+    "name": "Odoo",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 35840
+  },
+  {
+    "id": "omada",
+    "name": "Omada",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 3072,
+    "disk": 8192
+  },
+  {
+    "id": "ombi",
+    "name": "Ombi",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "openmediavault",
+    "name": "OMV",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "onedev",
+    "name": "OneDev",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "onlyoffice",
+    "name": "ONLYOFFICE",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "openarchiver",
+    "name": "Open-Archiver",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 3072,
+    "disk": 8192
+  },
+  {
+    "id": "opengist",
+    "name": "Opengist",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "openhab",
+    "name": "openHAB",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "openobserve",
+    "name": "OpenObserve",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 3072
+  },
+  {
+    "id": "openproject",
+    "name": "OpenProject",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "openwebui",
+    "name": "Open WebUI",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 8192,
+    "disk": 25600
+  },
+  {
+    "id": "openziticontroller",
+    "name": "openziti-controller",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "openzititunnel",
+    "name": "openziti-tunnel",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "ots",
+    "name": "OTS",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 3072
+  },
+  {
+    "id": "outline",
+    "name": "Outline",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "overseerr",
+    "name": "Overseerr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "owncast",
+    "name": "Owncast",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 2048
+  },
+  {
+    "id": "pairdrop",
+    "name": "PairDrop",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "palmr",
+    "name": "Palmr",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 6144,
+    "disk": 6144
+  },
+  {
+    "id": "pangolin",
+    "name": "Pangolin",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 5120
+  },
+  {
+    "id": "paperlessai",
+    "name": "Paperless-AI",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 20480
+  },
+  {
+    "id": "paperlessgpt",
+    "name": "Paperless-GPT",
+    "type": "LXC",
+    "cpu": 3,
+    "ram": 2048,
+    "disk": 7168
+  },
+  {
+    "id": "paperlessngx",
+    "name": "Paperless-ngx",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 12288
+  },
+  {
+    "id": "partdb",
+    "name": "Part-DB",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "passbolt",
+    "name": "Passbolt",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 2048
+  },
+  {
+    "id": "patchmon",
+    "name": "PatchMon",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "paymenter",
+    "name": "Paymenter",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "peanut",
+    "name": "PeaNUT",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 7168
+  },
+  {
+    "id": "pelicanpanel",
+    "name": "Pelican-Panel",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "pelicanwings",
+    "name": "Pelican-Wings",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "pf2etools",
+    "name": "Pf2eTools",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 6144
+  },
+  {
+    "id": "photoprism",
+    "name": "PhotoPrism",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 3072,
+    "disk": 8192
+  },
+  {
+    "id": "pialert",
+    "name": "PiAlert",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 3072
+  },
+  {
+    "id": "pihole",
+    "name": "Pihole",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "planka",
+    "name": "PLANKA",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "plantit",
+    "name": "Plant-it",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "plex",
+    "name": "Plex",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "pocketbase",
+    "name": "Pocketbase",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 8192
+  },
+  {
+    "id": "pocketid",
+    "name": "PocketID",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "podmanhomeassistant",
+    "name": "Podman-Home Assistant",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 16384
+  },
+  {
+    "id": "podman",
+    "name": "Podman",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "privatebin",
+    "name": "PrivateBin",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "projectsend",
+    "name": "ProjectSend",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "prometheusalertmanager",
+    "name": "Prometheus-Alertmanager",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 2048
+  },
+  {
+    "id": "prometheusblackboxexporter",
+    "name": "Prometheus-Blackbox-Exporter",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "prometheuspaperlessngxexporter",
+    "name": "Prometheus-Paperless-NGX-Exporter",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 256,
+    "disk": 2048
+  },
+  {
+    "id": "prometheuspveexporter",
+    "name": "Prometheus-PVE-Exporter",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "prowlarr",
+    "name": "Prowlarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "proxmoxbackupserver",
+    "name": "Proxmox-Backup-Server",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "proxmoxdatacentermanager",
+    "name": "Proxmox-Datacenter-Manager",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "proxmoxmailgateway",
+    "name": "Proxmox-Mail-Gateway",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "ps5mqtt",
+    "name": "PS5-MQTT",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 3072
+  },
+  {
+    "id": "pterodactylpanel",
+    "name": "Pterodactyl-Panel",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "pterodactylwings",
+    "name": "Pterodactyl-Wings",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "pulse",
+    "name": "Pulse",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "pvescriptslocal",
+    "name": "PVE-Scripts-Local",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 4096
+  },
+  {
+    "id": "qbittorrent",
+    "name": "qBittorrent",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "qdrant",
+    "name": "Qdrant",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "qui",
+    "name": "Qui",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 10240
+  },
+  {
+    "id": "rabbitmq",
+    "name": "RabbitMQ",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "radarr",
+    "name": "Radarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "radicale",
+    "name": "Radicale",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "rclone",
+    "name": "Rclone",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "rdtclient",
+    "name": "RDTClient",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "reactiveresume",
+    "name": "Reactive-Resume",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "readarr",
+    "name": "Readarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "readeck",
+    "name": "Readeck",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "recyclarr",
+    "name": "Recyclarr",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "reitti",
+    "name": "Reitti",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 15360
+  },
+  {
+    "id": "resiliosync",
+    "name": "Resilio Sync",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "revealjs",
+    "name": "RevealJS",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "runtipi",
+    "name": "Runtipi",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "rustdeskserver",
+    "name": "RustDesk Server",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "rwmarkable",
+    "name": "rwMarkable",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 3072,
+    "disk": 6144
+  },
+  {
+    "id": "sabnzbd",
+    "name": "SABnzbd",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "salt",
+    "name": "Salt",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 3072
+  },
+  {
+    "id": "scanopy",
+    "name": "Scanopy",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 3072,
+    "disk": 6144
+  },
+  {
+    "id": "scraparr",
+    "name": "Scraparr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "searxng",
+    "name": "SearXNG",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 7168
+  },
+  {
+    "id": "seelf",
+    "name": "seelf",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "semaphore",
+    "name": "Semaphore",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "sftpgo",
+    "name": "SFTPGo",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "shinobi",
+    "name": "Shinobi",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "signoz",
+    "name": "SigNoz",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 20480
+  },
+  {
+    "id": "silverbullet",
+    "name": "Silverbullet",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "slskd",
+    "name": "slskd",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "smokeping",
+    "name": "SmokePing",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "snipeit",
+    "name": "SnipeIT",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "snowshare",
+    "name": "SnowShare",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 20480
+  },
+  {
+    "id": "sonarqube",
+    "name": "SonarQube",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 6144,
+    "disk": 25600
+  },
+  {
+    "id": "sonarr",
+    "name": "Sonarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "speedtesttracker",
+    "name": "Speedtest-Tracker",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "splunkenterprise",
+    "name": "Splunk-Enterprise",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 8192,
+    "disk": 40960
+  },
+  {
+    "id": "spoolman",
+    "name": "Spoolman",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "sportarr",
+    "name": "Sportarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "sqlserver2022",
+    "name": "SQL Server 2022",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "stirlingpdf",
+    "name": "Stirling-PDF",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "streamlinkwebui",
+    "name": "streamlink-webui",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "stylus",
+    "name": "Stylus",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 2048
+  },
+  {
+    "id": "suwayomiserver",
+    "name": "SuwayomiServer",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "swizzin",
+    "name": "Swizzin",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 20480
+  },
+  {
+    "id": "syncthing",
+    "name": "Syncthing",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "tandoor",
+    "name": "Tandoor",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "tasmoadmin",
+    "name": "TasmoAdmin",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "tasmocompiler",
+    "name": "TasmoCompiler",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "tautulli",
+    "name": "Tautulli",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "tdarr",
+    "name": "Tdarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "teamspeakserver",
+    "name": "Teamspeak-Server",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "technitiumdns",
+    "name": "Technitium DNS",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "teddycloud",
+    "name": "TeddyCloud",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "telegraf",
+    "name": "telegraf",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "termix",
+    "name": "Termix",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "thelounge",
+    "name": "The-Lounge",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "thingsboard",
+    "name": "ThingsBoard",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 10240
+  },
+  {
+    "id": "threadfin",
+    "name": "Threadfin",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "tianji",
+    "name": "Tianji",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 12288
+  },
+  {
+    "id": "traccar",
+    "name": "Traccar",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 2048
+  },
+  {
+    "id": "tracktor",
+    "name": "tracktor",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 6144
+  },
+  {
+    "id": "traefik",
+    "name": "Traefik",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "transmission",
+    "name": "Transmission",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "trilium",
+    "name": "Trilium",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "trip",
+    "name": "TRIP",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "tududi",
+    "name": "Tududi",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "tunarr",
+    "name": "Tunarr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "twingateconnector",
+    "name": "Twingate-Connector",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 3072
+  },
+  {
+    "id": "typesense",
+    "name": "TypeSense",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "ubuntu",
+    "name": "Ubuntu",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "uhf",
+    "name": "UHF",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "umami",
+    "name": "Umami",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 12288
+  },
+  {
+    "id": "umlautadaptarr",
+    "name": "UmlautAdaptarr",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "unbound",
+    "name": "Unbound",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "unifiosserver",
+    "name": "UniFi-OS-Server",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 20480
+  },
+  {
+    "id": "unifi",
+    "name": "Unifi",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "unmanic",
+    "name": "Unmanic",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 4096
+  },
+  {
+    "id": "upgopher",
+    "name": "Upgopher",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "upsnap",
+    "name": "UpSnap",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "uptimekuma",
+    "name": "Uptime Kuma",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "urbackupserver",
+    "name": "UrBackup Server",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 16384
+  },
+  {
+    "id": "valkey",
+    "name": "Valkey",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "vaultwarden",
+    "name": "Vaultwarden",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 6144,
+    "disk": 20480
+  },
+  {
+    "id": "verdaccio",
+    "name": "Verdaccio",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 8192
+  },
+  {
+    "id": "victoriametrics",
+    "name": "VictoriaMetrics",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 16384
+  },
+  {
+    "id": "vikunja",
+    "name": "Vikunja",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "wallabag",
+    "name": "Wallabag",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "wallos",
+    "name": "Wallos",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "wanderer",
+    "name": "Wanderer",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "warracker",
+    "name": "Warracker",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "wastebin",
+    "name": "Wastebin",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "watcharr",
+    "name": "Watcharr",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "watchyourlan",
+    "name": "WatchYourLAN",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "wavelog",
+    "name": "Wavelog",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 2048
+  },
+  {
+    "id": "wazuh",
+    "name": "Wazuh",
+    "type": "LXC",
+    "cpu": 4,
+    "ram": 4096,
+    "disk": 25600
+  },
+  {
+    "id": "webcheck",
+    "name": "web-check",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 12288
+  },
+  {
+    "id": "wger",
+    "name": "wger",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 6144
+  },
+  {
+    "id": "whisparr",
+    "name": "Whisparr",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "wikijs",
+    "name": "Wikijs",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 10240
+  },
+  {
+    "id": "wireguard",
+    "name": "Wireguard",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "wizarr",
+    "name": "Wizarr",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "wordpress",
+    "name": "Wordpress",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "ytdlpwebui",
+    "name": "yt-dlp-webui",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  },
+  {
+    "id": "yubal",
+    "name": "Yubal",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 15360
+  },
+  {
+    "id": "yunohost",
+    "name": "YunoHost",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 20480
+  },
+  {
+    "id": "zabbix",
+    "name": "Zabbix",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 6144
+  },
+  {
+    "id": "zammad",
+    "name": "Zammad",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 4096,
+    "disk": 8192
+  },
+  {
+    "id": "zerotierone",
+    "name": "Zerotier-One",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 512,
+    "disk": 4096
+  },
+  {
+    "id": "zigbee2mqtt",
+    "name": "Zigbee2MQTT",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 5120
+  },
+  {
+    "id": "zipline",
+    "name": "Zipline",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 5120
+  },
+  {
+    "id": "zitadel",
+    "name": "Zitadel",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 1024,
+    "disk": 8192
+  },
+  {
+    "id": "zoraxy",
+    "name": "Zoraxy",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 2048,
+    "disk": 6144
+  },
+  {
+    "id": "zotregistry",
+    "name": "Zot-Registry",
+    "type": "LXC",
+    "cpu": 1,
+    "ram": 4096,
+    "disk": 5120
+  },
+  {
+    "id": "zwavejsui",
+    "name": "Zwave-JS-UI",
+    "type": "LXC",
+    "cpu": 2,
+    "ram": 1024,
+    "disk": 4096
+  }
+]
