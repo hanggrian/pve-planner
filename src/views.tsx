@@ -6,11 +6,11 @@ interface ThemeProps {
 }
 
 function getTextColor(props: ThemeProps): string {
-  return props.darkMode ? 'white' : 'var(--text-slate-900)';
+  return props.darkMode ? 'white' : 'text-slate-900';
 }
 
 function getHintColor(props: ThemeProps): string {
-  return props.darkMode ? 'var(--color-slate-400)' : 'var(--color-slate-600)';
+  return props.darkMode ? 'var(--color-slate-600)' : 'var(--color-slate-400)';
 }
 
 function getAccentColor(props: ThemeProps): string {
@@ -70,6 +70,10 @@ const StyledFormControl =
 
     & .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
       border-color: ${getHintColor};
+    }
+
+    & .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+      border-color: ${getTextColor};
     }
 
     & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {

@@ -16,7 +16,7 @@ describe(
     );
 
     it(
-      'test',
+      'test rows',
       async () => {
         expect(await screen.findByText('Lorem:')).toBeInTheDocument();
         expect(await screen.findByText('Ipsum')).toBeInTheDocument();

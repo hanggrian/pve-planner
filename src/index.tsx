@@ -77,7 +77,16 @@ const PvePlanner: React.FC = () => {
           <div className='flex items-center gap-x-6 gap-y-3'>
             <button
               onClick={() => setDarkMode(!darkMode)}
-              className='p-3 bg-orange-500 rounded-xl hover:bg-orange-700 transition-colors'>
+              className={
+                `p-3
+                ${
+                  darkMode
+                    ? 'bg-orange-500 hover:bg-orange-400'
+                    : 'bg-orange-700 hover:bg-orange-800'
+                }
+                rounded-xl
+                transition-colors`
+              }>
               {
                 darkMode
                   ? <Sun className='w-8 h-8 text-white'/>
@@ -156,7 +165,7 @@ const PvePlanner: React.FC = () => {
                     startAdornment: (
                       <Search
                         size={20}
-                        className={`ml-2 mr-2 ${darkMode ? 'text-slate-700' : 'text-slate-200'}`}/>
+                        className={`ml-2 mr-2 ${darkMode ? 'text-slate-600' : 'text-slate-400'}`}/>
                     ),
                     endAdornment: (<>{params.InputProps.endAdornment}</>),
                   }}
@@ -178,7 +187,7 @@ const PvePlanner: React.FC = () => {
                   startAdornment={
                     <Cpu
                       size={20}
-                      className={`ml-2 mr-4 ${darkMode ? 'text-slate-700' : 'text-slate-200'}`}/>
+                      className={`ml-2 mr-4 ${darkMode ? 'text-slate-600' : 'text-slate-400'}`}/>
                   }>
                   <MenuItem value={1}>1 vCPU</MenuItem>
                   <MenuItem value={2}>2 vCPU</MenuItem>
@@ -200,7 +209,7 @@ const PvePlanner: React.FC = () => {
                   startAdornment={
                     <MemoryStick
                       size={20}
-                      className={`ml-2 mr-4 ${darkMode ? 'text-slate-700' : 'text-slate-200'}`}/>
+                      className={`ml-2 mr-4 ${darkMode ? 'text-slate-600' : 'text-slate-400'}`}/>
                   }>
                   <MenuItem value={256}>256 MB</MenuItem>
                   <MenuItem value={512}>512 MB</MenuItem>
@@ -227,7 +236,7 @@ const PvePlanner: React.FC = () => {
                   startAdornment={
                     <HardDrive
                       size={20}
-                      className={`ml-2 mr-4 ${darkMode ? 'text-slate-700' : 'text-slate-200'}`}/>
+                      className={`ml-2 mr-4 ${darkMode ? 'text-slate-600' : 'text-slate-400'}`}/>
                   }>
                   <MenuItem value={512}>512 MB</MenuItem>
                   <MenuItem value={1024}>1 GB</MenuItem>
@@ -399,8 +408,8 @@ const PvePlanner: React.FC = () => {
                               className={
                                 `text-base font-bold
                                 ${darkMode
-                                  ? 'text-white group-hover:text-indigo-400'
-                                  : 'text-slate-900 group-hover:text-indigo-600'
+                                  ? 'text-white group-hover:text-orange-400'
+                                  : 'text-slate-900 group-hover:text-orange-800'
                                 } mb-3 transition-colors`
                               }>
                               {image.name}
