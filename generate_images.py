@@ -38,11 +38,11 @@ def list_files(path: str) -> list[str]:
     if response.status_code != 200:
         raise IOError('Failed to fetch.')
 
-    result = []
+    items = []
     for item in response.json():
         if item['type'] == 'file' and Path(item['name']).suffix == '.sh':
-            result.append(item['name'])
-    return result
+            items.append(item['name'])
+    return items
 
 
 def read_raw_file(path: str) -> str:
@@ -56,8 +56,8 @@ def read_raw_file(path: str) -> str:
     return response.text
 
 
-def format_id(name: str) -> str:
-    return sub(r'[^a-zA-Z0-9]+', '', name).strip('_').lower()
+def format_id(name2: str) -> str:
+    return sub(r'[^a-zA-Z0-9]+', '', name2).strip('_').lower()
 
 
 if __name__ == '__main__':
